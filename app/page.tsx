@@ -27,8 +27,17 @@ export default function Home() {
               cats, and we thought it deserved a community to call its own on Base network.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-              <Button className="bg-black text-white hover:bg-gray-800 px-8 py-6 text-lg font-semibold rounded-full">
-                BUY NOW
+              <Button
+                className="bg-black text-white hover:bg-gray-800 px-8 py-6 text-lg font-semibold rounded-full"
+                asChild
+              >
+                <a
+                  href="https://ape.store/base/0x12a9184406136ae05c90606b25373beeeb122de1"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  BUY NOW
+                </a>
               </Button>
               <Button
                 variant="outline"
