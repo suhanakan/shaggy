@@ -157,8 +157,10 @@ export default function Home() {
             <Button size="lg" className="bg-[#1DA1F2] hover:bg-[#1a91da] text-white rounded-full w-16 h-16 p-0">
               <Send className="w-6 h-6" />
             </Button>
-            <Button size="lg" className="bg-[#1DA1F2] hover:bg-[#1a91da] text-white rounded-full w-16 h-16 p-0">
-              <Twitter className="w-6 h-6" />
+            <Button size="lg" className="bg-[#1DA1F2] hover:bg-[#1a91da] text-white rounded-full w-16 h-16 p-0" asChild>
+              <a href="https://x.com/shaggythecat_" target="_blank" rel="noopener noreferrer">
+                <Twitter className="w-6 h-6" />
+              </a>
             </Button>
           </div>
         </div>
