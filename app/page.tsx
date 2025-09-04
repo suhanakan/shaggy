@@ -42,8 +42,15 @@ export default function Home() {
               <Button
                 variant="outline"
                 className="border-white text-white hover:bg-white hover:text-[#1DA1F2] px-8 py-6 text-lg font-semibold rounded-full bg-transparent"
+                asChild
               >
-                CHART
+                <a
+                  href="https://dexscreener.com/base/0xC11Fc30fC520Bf4eec5bb8F79E99429Ce28aF1Ca"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  CHART
+                </a>
               </Button>
             </div>
           </div>
